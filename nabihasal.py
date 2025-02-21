@@ -22,4 +22,16 @@ def main():
     else:
         savings_division = "undefined (you are not saving anything)"
 
-    
+    print("\n--- Monthly Financial Summary for {} ---".format(month))
+    print("Your Salary: ${:.2f}".format(salary))
+    print("Amount allocated to Savings: ${:.2f}".format(savings_amount))
+    print("Amount allocated to Rent: ${:.2f}".format(rent_amount))
+    print("Amount allocated to Electricity: ${:.2f}".format(electricity_amount))
+    print("Total Expenses (Savings + Rent + Electricity): ${:.2f}".format(total_expenses))
+    print("Remaining Amount after Expenses: ${:.2f}".format(remainder))
+    print("Estimated Yearly Rent: ${:.2f}".format(yearly_rent))
+    print("Estimated Yearly Electricity: ${:.2f}".format(yearly_electricity))
+    print("If you save an extra $50, it would be divided by your savings amount: {}".format(savings_division))
+
+    if __name__ == "__main__":
+        main()
