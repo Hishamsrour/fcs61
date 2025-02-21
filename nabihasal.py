@@ -1,6 +1,5 @@
 import random
 
-10
 def manage_finances():
     print("Welcome to Nabiha's Monthly Finance Manager!\n")
 
