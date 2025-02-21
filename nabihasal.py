@@ -13,4 +13,7 @@ def main():
     total_expenses = savings_amount + rent_amount + electricity_amount
     remainder = salary - total_expenses
 
+    yearly_rent = rent_amount * 12
+    yearly_electricity = electricity_amount * 12
+
     
