@@ -16,4 +16,10 @@ def main():
     yearly_rent = rent_amount * 12
     yearly_electricity = electricity_amount * 12
 
+    additional_savings = 50
+    if savings_amount > 0:
+        savings_division = additional_savings / savings_amount
+    else:
+        savings_division = "undefined (you are not saving anything)"
+
     
