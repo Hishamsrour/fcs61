@@ -9,3 +9,8 @@ def main():
     savings_amount = (savings_percentage / 100) * salary
     rent_amount = (rent_percentage / 100) * salary
     electricity_amount = (electricity_percentage / 100) * salary
+
+    total_expenses = savings_amount + rent_amount + electricity_amount
+    remainder = salary - total_expenses
+
+    
