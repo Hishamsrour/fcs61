@@ -38,3 +38,6 @@ def show_vehicle_info(vehicle):
 
 car = Car("Toyota", "Corolla", 2020, 50, 5)
 bike = Bike("Yamaha", "R1", 2019, 30, 998)
+
+show_vehicle_info(car)
+show_vehicle_info(bike)
